@@ -154,7 +154,7 @@ public class ColorSectionController implements CustomizationSectionController<Co
 
     @Override
     public boolean isAvailable(@Nullable Context context) {
-        return context != null && ColorUtils.isMonetEnabled(context) && mColorManager.isAvailable();
+        return true;
     }
 
     @Override
